@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>777</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="firstScreen">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>771</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="UserPage">
+     <property name="styleSheet">
+      <string notr="true">#UserPage{
+ background-color: rgb(152, 219, 255)
+}</string>
+     </property>
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>741</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="signerBtn1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>221</width>
+         <height>381</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>D:/demo2/images/sign1.jpg</normaloff>D:/demo2/images/sign1.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>241</width>
+         <height>401</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="speakerBtn1">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>10</y>
+         <width>221</width>
+         <height>381</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>D:/demo2/images/speak.jpg</normaloff>D:/demo2/images/speak.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>251</width>
+         <height>441</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="learnerBtn1">
+       <property name="geometry">
+        <rect>
+         <x>484</x>
+         <y>13</y>
+         <width>241</width>
+         <height>371</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>D:/demo2/images/learn.jpg</normaloff>D:/demo2/images/learn.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>241</width>
+         <height>401</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label1">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>30</y>
+        <width>511</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>22</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>What role would you like to choose?</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="SecondPage">
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>131</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#frame_2{
+ background-color: rgb(239, 176, 255)
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Papyrus</family>
+         <pointsize>24</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>N(S)L</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="signerBtn2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>75</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Signer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="speakerBtn2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>75</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Speaker</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="learnerBtn2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>75</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Learner</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="feedback2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>75</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Feedback</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QStackedWidget" name="secondScreen">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>0</y>
+        <width>651</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#secondScreen{
+	background-color: rgb(153, 255, 130);
+}</string>
+      </property>
+      <widget class="QWidget" name="signerPage">
+       <widget class="QLabel" name="cameraLabel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>621</width>
+          <height>361</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>cam</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="startBtn1">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>380</y>
+          <width>75</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Start/Stop</string>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>420</y>
+          <width>621</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QPushButton" name="soundButton2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../Users/Nimsang/.designer/Users/Nimsang/Downloads/speaker.jpg</normaloff>../Users/Nimsang/.designer/Users/Nimsang/Downloads/speaker.jpg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>65</width>
+           <height>61</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="outputLabel">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>15</y>
+           <width>501</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Output</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="learnerPage">
+       <widget class="QStackedWidget" name="learnerScreen">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>601</width>
+          <height>451</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="screen0">
+         <widget class="QPushButton" name="Alphabets">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>251</width>
+            <height>241</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="Test">
+          <property name="geometry">
+           <rect>
+            <x>290</x>
+            <y>20</y>
+            <width>251</width>
+            <height>241</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="alphabetScreen">
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>-11</y>
+            <width>271</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Comic Sans MS</family>
+            <pointsize>28</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>NSL Alphabets</string>
+          </property>
+         </widget>
+         <widget class="QFrame" name="frame_4">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>60</y>
+            <width>481</width>
+            <height>381</height>
+           </rect>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="alphabet">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>10</y>
+             <width>361</width>
+             <height>311</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="letter">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>335</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Ka</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="previous">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>170</y>
+             <width>51</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="next">
+           <property name="geometry">
+            <rect>
+             <x>430</x>
+             <y>170</y>
+             <width>51</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&gt;</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="testScreen"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="speakerPage">
+       <widget class="QLabel" name="imageOutput">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>621</width>
+          <height>371</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="startBtn2">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>400</y>
+          <width>141</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Start/Stop</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="feedbackPage"/>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
